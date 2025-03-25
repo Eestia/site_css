@@ -56,12 +56,31 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 600px;
 }
 #sectimg img{
     width: 250px;
     border-radius: 5%;
-    margin: 20px;
+    margin: 10px;
 }
 #sectimg h1{
     font-family: "Lexend Deca", sans-serif;
+    font-size: 40px;
+}
+#about{
+    height: 300px;
+    background-color: rgb(224,52,68);
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#divdivi{
+    display: flex;
+}
+#divdivi p{
+    font-size: 15px;
+    margin: 30px;
 }
