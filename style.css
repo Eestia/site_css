@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+#nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(48,60,84);
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    margin: 0px;
+}
+#d1 p{
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+}
+#d2 p{
+    font-size: 13px;
+    margin: 10px;
+}
+#d2{
+    display: flex;
+    margin-right: 300px;
+}
+#sectionred{
+    font-family: "Lexend Deca", sans-serif;
+    height: 500px;
+    background-color: rgb(224,52,68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#sectionred img{
+    height: 225px;
+    margin-bottom: 2px;
+    /* border: 3px Green solid; */
+}
+#dh1 h1{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 40px;
+    /* border: 3px Green solid; */
+    margin: 2px;
+}
+#dp1 p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    /* border: 3px Green solid; */
+}
+#sectimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sectimg img{
+    width: 250px;
+    border-radius: 5%;
+    margin: 20px;
+}
+#sectimg h1{
+    font-family: "Lexend Deca", sans-serif;
+}
