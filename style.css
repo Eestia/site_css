@@ -216,14 +216,33 @@ form input{
     #d2 p {
         margin: 0px;
     }
-    #sectimg{
-        height: 400px;
-    }
     #divdivi p{
         font-size: 13px;
     }
+    #sectimg {
+        height: fit-content;
+    }
     #sectimg img{
-        width: 100px;
+        width: 150px;
+    }
+    #icon div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #about {
+        height: fit-content;
+    }
+    #about #divdivi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #divdivi p{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     #sectcontact{
         height: 600px;
@@ -245,6 +264,8 @@ form input{
         display: flex;
         flex-direction: column;
         height: 400px;
+        justify-content: center;
+        align-items: center;
     }
     #sectbleu >div> div> p{
         font-size: 12px;
