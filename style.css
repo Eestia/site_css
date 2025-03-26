@@ -132,10 +132,16 @@ form input{
     justify-content: center;
     text-align: center;
     align-items: flex-start;
-    gap: 70px;
+    gap: 30px;
+}
+#sectbleu > div{
+    width: 300px;
 }
 #sectbleu div p{
     font-size: 15px;
+}
+#sectbleu div p span{
+    color: rgba(27,188,160,255);
 }
 #sectbleu div i{
     border: 2px solid white;
@@ -146,7 +152,6 @@ form input{
     justify-content: center;
     align-items: center;
     font-size: 15px;
-
 }
 #sectbleu > div{
     margin-top: 30px;
@@ -157,6 +162,12 @@ form input{
     background-color: rgba(26,37,47,255);
     color: white;
     font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastsect div p{
+    font-size: 13px
 }
 #divicon{
     display: flex;
