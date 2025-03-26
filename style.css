@@ -211,7 +211,7 @@ form input{
     #d2 {
         margin-right: 20px;
         flex-wrap: wrap;
-        gap: 0px;
+        gap: 5px;
     }
     #d2 p {
         margin: 0px;
