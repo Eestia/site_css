@@ -121,3 +121,13 @@ form input{
     margin-right: 445px;
     margin-bottom: 80px;
 }
+#sectbleu{
+    height: 225px;
+    margin: 0px;
+    background-color: rgba(44,62,80,255);
+}
+#lastsect{
+    height: 65px;
+    margin: 0px;
+    background-color: rgba(26,37,47,255);
+}
